@@ -7,7 +7,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     container_name: watchtower
   express-app:
-    image: express-app
+    image: blackthest/express-app:latest
     ports:
       - 8080:8080
     

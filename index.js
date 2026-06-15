@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/sekret', (req, res) => {
-  res.send({ what: 'cookies'})
+  res.send({ what: 'cookies for me'})
 })
 
 const PORT = 8080
